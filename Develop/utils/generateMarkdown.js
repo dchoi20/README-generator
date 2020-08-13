@@ -37,14 +37,14 @@ ${response.license}
 
 ## Questions 
 
-${response.username}
-${response.email}
+
+
+* [GitHub Home Page](https://github.com/${response.username})
+
+For more information please contact me at the email provided below: 
+* <${response.email}>
 
 `;
 }
 
 module.exports = generateMarkdown;
-
-// #${response.title}
-
-// /n
