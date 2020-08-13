@@ -1,9 +1,9 @@
 
-# README Generator
+# README GENERATOR
 
 ## Descriptions
 
-Generate a README for projects
+Generate README for future projects
 
 ## Table of Contents
 * [Installation](##Installation)
