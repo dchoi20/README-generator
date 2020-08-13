@@ -1,11 +1,9 @@
-// function to generate markdown for README
-function generateMarkdown(response) {
-  return `
-# ${response.title}
+
+# README Generator
 
 ## Descriptions
 
-${response.description}
+Generate a README for projects
 
 ## Table of Contents
 * [Installation](##Installation)
@@ -18,35 +16,31 @@ ${response.description}
 ##  Installation
 
 
-${response.installation}
+none
 
 
 ## Usage
 
-${response.usage}
+testing purposes
 
 ## Contributing
 
-${response.contribution}
+none
 
 ## Instructions
 
-${response.instuctions}
+none
 
 ## License
 
-${response.license}
+MIT
 
 ## Questions 
 
 
 
-* [GitHub Home Page](https://github.com/${response.username})
+* [GitHub Home Page](https://github.com/dchoi20)
 
 For more information please contact me at the email provided below: 
-* <${response.email}>
+* <choi.danny20@gmail.com>
 
-`;
-}
-
-module.exports = generateMarkdown;

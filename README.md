@@ -18,3 +18,9 @@ THEN a quality README is generated based off of my input
 WHEN I enter my inputs
 THEN this information is displayed in the corresponding sections of the README
 ```
+
+## EXAMPLE:
+
+![Example of README Generator Prompts](./images/userPrompts.png)
+
+![Example of README Generated](./images/example.png)
